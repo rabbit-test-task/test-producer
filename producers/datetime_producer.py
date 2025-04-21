@@ -11,7 +11,7 @@ class DateTimeProducer(BaseProducer[DateTimeMessage]):
     def __init__(
         self,
         rabbitmq_settings: RabbitMQSettings,
-        interval: float,
+        interval: float = 1.0,
     ):
         super().__init__(
             rabbitmq_settings=rabbitmq_settings,
