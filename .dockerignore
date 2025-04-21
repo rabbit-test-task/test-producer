@@ -1,0 +1,22 @@
+
+# Git directories
+.git/
+.github/
+.gitignore
+.gitattributes
+
+# IDE specific files
+.idea/
+*.iml
+.vscode/
+.classpath
+.factorypath
+.project
+.settings/
+
+# Other files
+README.md
+LICENSE
+*.md
+.DS_Store
+*.log
